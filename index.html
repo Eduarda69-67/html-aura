@@ -2,19 +2,111 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>MInha pagina bomba </title>
-    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInfo - Desenvolvimento de Software e Sites</title>
+    <!-- Vinculando o CSS externo -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo ao meu site Bomba!!!!</h1>
-        <p>Esta é a pagina bomba principal</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
-            </ul>
-        </nav>
+
+    <!-- Cabeçalho e Menu de Navegação -->
+    <header class="topo">
+        <div class="container-topo">
+            <div class="logo">
+                <span class="icone-logo">&lt;/&gt;</span>
+                <div>
+                    <h1>Bondadezos info</h1>
+                    <p>Desenvolvimento de memorias e resenhas</p>
+                </div>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html" class="ativo">Início</a></li>
+                    <li><a href="#servicos">Resenhas</a></li>
+                    <li><a href="#portfolio">memorias</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <!-- Seção Principal (Banner Hero) -->
+    <section class="banner">
+        <div class="container-banner">
+            <div class="texto-banner">
+                <h2>Soluções para<br>Ser Bondadezos</h2>
+                <p>Desenvolvemos memorias, resenhas e amamos raniere.</p>
+                <a href="contato.html" class="btn-principal">🚀 Solicite uma Reseha</a>
+            </div>
+            <div class="imagem-banner">
+                <!-- Lembre-se de salvar uma imagem na pasta "imagens" -->
+                <img src="C:\Users\ALN\joao_eduarad\sousnaji\atividade\images.jpg" alt="Notebook com códigos de programação">
+            </div>
+        </div>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção de Serviços (3 Colunas) -->
+        <section id="servicos" class="secao-servicos">
+            <div class="container-cards">
+                <div class="card">
+                    <div class="icone-card">&lt;/&gt;</div>
+                    <h3>Desenvolvimento de Bondados</h3>
+                    <p>Sistemas sob medida para criar novos Bondadezos.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icone-card">🌐</div>
+                    <h3>Criação de Memorias</h3>
+                    <p>As melhores memorias para sempre lembrarmos.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icone-card">⚙️</div>
+                    <h3>Soluções Resenhudas</h3>
+                    <p>Projetos de resenha, de acordo com as necessidades do seu grupo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre a Empresa (2 Colunas) -->
+        <section id="sobre" class="secao-sobre">
+            <div class="container-sobre">
+                <div class="imagem-sobre">
+                    <!-- Lembre-se de salvar uma imagem na pasta "imagens" -->
+                    <img src="C:\Users\ALN\joao_eduarad\sousnaji\atividade\images (1).jpg" alt="Monitor com símbolo de código na mesa">
+                </div>
+                <div class="texto-sobre">
+                    <h2>Sobre a Bondadezosinfo</h2>
+                    <p>Somos uma empresa especializada no desenvolvimento de novos Bondadezos e resenhudos 67  69, oferecendo rezenhas de qualidade, com foco em desbloquear a bondadezia em nossos aprendizes.</p>
+                    <a href="contato.html" class="btn-secundario">Conheça os bondadezos originais, SIM eles mesmo →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container-rodape">
+            <div class="logo-rodape">
+                <span class="icone-logo">&lt;/&gt;</span>
+                <div>
+                    <h3>Bondadezosinfo</h3>
+                    <p>Resenhax no clubex</p>
+                </div>
+            </div>
+
+            <div class="contatos-rodape">
+                <span>📞 (69) 6763-6666 </span>
+                <span>✉️ contato@aurudos.com.br</span>
+                <span>📍 Belém - PA</span>
+                <a href="#" class="icone-social">in</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

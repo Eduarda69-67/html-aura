@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - TechInfo</title>
+    <!-- Compartilhando o mesmo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Mesmo Cabeçalho e Menu de Navegação -->
+    <header class="topo">
+        <div class="container-topo">
+            <div class="logo">
+                <span class="icone-logo">&lt;/&gt;</span>
+                <div>
+                    <h1>Bondadezosinfo/h1>
+                    <p>Desenvolvimento de memórias e resenhas</p>
+                </div>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#servicos">Serviços</a></li>
+                    <li><a href="index.html#portfolio">Portfólio</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="contato.html" class="ativo">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Menor da Página de Contato -->
+    <section class="banner-contato">
+        <div class="container-banner-contato">
+            <h2>Mande uma mensagem pros bonadadozos</h2>
+            <p>Envie sua mensagem e aproveite esse privilégio.</p>
+        </div>
+    </section>
+
+    <!-- Área Principal do Formulário e Informações -->
+    <main class="secao-contato">
+        <div class="container-contato">
+            
+            <!-- Coluna da Esquerda: Informações -->
+            <div class="info-contato">
+                <h3>Fale com nós</h3>
+                <p>Esperamos para conhecer nossos súditos novos amo amo.</p>
+                
+                <div class="item-info">
+                    <strong>📞 Telefone</strong>
+                    <p>(69) 6763-6666</p>
+                </div>
+
+                <div class="item-info">
+                    <strong>✉️ E-mail</strong>
+                    <p>contato@aurudos.com.br</p>
+                </div>
+
+                <div class="item-info">
+                    <strong>📍 Endereço</strong>
+                    <p>Belém - PA</p>
+                </div>
+            </div>
+
+            <!-- Coluna da Direita: Formulário -->
+            <div class="box-formulario">
+                <form action="#" method="POST">
+                    <div class="campo">
+                        <label for="nome">Nome completo <span class="obrigatorio">*</span></label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail <span class="obrigatorio">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem <span class="obrigatorio">*</span></label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">✈️ Enviar mensagem</button>
+                    <p class="aviso-obrigatorio"><span class="obrigatorio">*</span> Campos obrigatórios.</p>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Mesmo Rodapé -->
+    <footer class="rodape">
+        <div class="container-rodape">
+            <div class="logo-rodape">
+                <span class="icone-logo">&lt;/&gt;</span>
+                <div>
+                    <h3>Bondadezosinfo</h3>
+                    <p>Desenvolvimento de Memórias e resenhas</p>
+                </div>
+            </div>
+
+            <div class="contatos-rodape">
+                <span>📞 (69) 6763-6666</span>
+                <span>✉️ contato@aurudos.com.br</span>
+                <span>📍 Belém - PA</span>
+                <a href="#" class="icone-social">in</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
